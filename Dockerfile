@@ -50,7 +50,7 @@ EXPOSE 8006 5900
 
 ENV VERSION="13"
 ENV RAM_SIZE="2G"
-ENV CPU_CORES="2"
+ENV CPU_CORES="1"
 ENV DISK_SIZE="64G"
 
 ENTRYPOINT ["/usr/bin/tini", "-s", "/run/entry.sh"]
